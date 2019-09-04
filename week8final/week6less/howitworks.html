@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Help</title>
+
+
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="mustache.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="app.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet/less" type="text/css" href="app.less">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </nav>
+
+
+
+
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="main.html">GameTri</a>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Rent Games
+                                </label>
+            <label class="btn btn-secondary">
+                                  <input type="radio" name="options" id="option2" autocomplete="off"> Buy Games
+                                </label>
+            <label class="btn btn-secondary">
+                                  <input type="radio" name="options" id="option3" autocomplete="off"> Cart
+                                </label>
+        </div>
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="n64.html">N64</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ps3.html"> PS3  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PS4.html"> PS4 </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html"> About Us  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="howitworks.html"> How it Works  </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+</header>
+
+<body>
+
+
+    <div class="container">
+
+
+
+
+
+
+
+        <div class="card">
+
+            <img src="image/GameTriIcon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rules</h5>
+                <script id="template" type="x-tmpl-mustache">
+                    These are the rules to how GameTri works. {{gamescat.howitworks}}.
+
+                    <ul>
+                        {{#rules1}}
+                        <li>{{rules}}</li>
+                        {{/rules1}}
+                    </ul>
+
+                    {{#show}} Games are available for rent now! {{/show}}
+
+                </script>
+
+                <div id="target"></div>
+
+                <a href="rent.html" class="btn btn-primary">Rent now</a>
+
+
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <img src="image/GameTriIcon.png" class="rounded float-left" alt="...">
+        <img src="image/gamebackgroundpic.jpeg" class="rounded float-right" alt="...">
+
+        <img src="image/images0.jpeg" class="rounded float-left" alt="...">
+        <img src="image/images1.jpeg" class="rounded float-right" alt="...">
+
+        <img src="image/images2.jpeg" class="rounded float-left" alt="...">
+        <img src="image/images3.jpeg" class="rounded float-right" alt="...">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+</footer>
+
+</html>

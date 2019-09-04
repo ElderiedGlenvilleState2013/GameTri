@@ -1,0 +1,42 @@
+.img {
+  text-align: center;
+  background-color: gray;
+}
+.aboutustext {
+  text-align: center;
+  color: #1f721f;
+}
+body {
+  background-color: gray;
+}
+.missionText {
+  text-align: center;
+  color: #1f721f;
+}
+.imageColor {
+  background-color: gray;
+  color: gray;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+.table {
+  color: #1f721f;
+}
+.card {
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}
+footer {
+  color: white;
+  background-color: gray;
+  text-align: center;
+}
+.card-text {
+  color: purple;
+}
+#template {
+  color: purple;
+}
